@@ -66,7 +66,6 @@
         .attr('alt', 'Logo DP6');
       lb.find('.lightbox-title').text('Contato enviado');
       lbContent.html('Obrigado pelo seu contato!').scrollTop(0);
-      alert("entrei no pop-up!");
       ga('send', {
           hitType: 'event',
           eventCategory: 'contato',
