@@ -60,7 +60,6 @@
     submit.attr('disabled', 'disabled');
     e.preventDefault();
     setTimeout(function () {
-      console.log('enviado');
       lb.find('.lightbox-icon')
         .attr('src', 'img/logo-dp6-square.png')
         .attr('alt', 'Logo DP6');
